@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0161f7a6e3456354ab1702a4c82b8749, type: 3}
+  m_Name: Small Grass 2
+  m_EditorClassIdentifier: 
+  properties:
+    dimentions: {x: 50, y: 50, z: 50}
+    seed: 116
+    radius: 20
+    shapeNoise:
+      amplitude: 15.5
+      frequency: 0.075
+      layer1AmplitudeMult: 0.5
+      layer1FrequencyMult: 0.5
+      layer2AmplitudeMult: 0.25
+      layer2FrequencyMult: 0.25
+    layering: 0
+    layeredNoiseInfluence: 0
+    topLayer:
+      amplitude: 9.86
+      frequency: 0.075
+      layer1AmplitudeMult: 0.5
+      layer1FrequencyMult: 0.538
+      layer2AmplitudeMult: 0.25
+      layer2FrequencyMult: 0.25
+    topCentreInfluence: 0.818
+    bottomLayer:
+      amplitude: 15.83
+      frequency: 0.1
+      layer1AmplitudeMult: 0.5
+      layer1FrequencyMult: 0.8
+      layer2AmplitudeMult: 0.25
+      layer2FrequencyMult: 0.4
+    bottomCentreInfluence: 0.95
+    surfaceLayers:
+    - materialLayer:
+        materials:
+        - voxelType: 3
+          weight: 0
+      range: {x: 0, y: 1}
+    - materialLayer:
+        materials:
+        - voxelType: 2
+          weight: 0
+      range: {x: 1, y: 3}
+    rock:
+      materials:
+      - voxelType: 1
+        weight: 0
+  exporter:
+    path: C:\Users\billy\AppData\Roaming\.minecraft\config\worldedit\schematics
+    copyCommand: 
