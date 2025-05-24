@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0161f7a6e3456354ab1702a4c82b8749, type: 3}
-  m_Name: Template Island
+  m_Name: Large Grass Island 1
   m_EditorClassIdentifier: 
   properties:
-    dimentions: {x: 20, y: 20, z: 20}
-    seed: 100
-    radius: 10
+    dimentions: {x: 120, y: 60, z: 120}
+    seed: 279708
+    radius: 46
     shapeNoise:
-      amplitude: 15
-      frequency: 0.075
+      amplitude: 30
+      frequency: 0.03
       layer1AmplitudeMult: 0.5
       layer1FrequencyMult: 0.5
       layer2AmplitudeMult: 0.25
@@ -26,21 +26,21 @@ MonoBehaviour:
     layering: 0
     layeredNoiseInfluence: 0
     topLayer:
-      amplitude: 5
-      frequency: 0.05
+      amplitude: 8
+      frequency: 0.07
       layer1AmplitudeMult: 0.5
-      layer1FrequencyMult: 0.5
+      layer1FrequencyMult: 0.538
       layer2AmplitudeMult: 0.25
       layer2FrequencyMult: 0.25
-    topCentreInfluence: 1
+    topCentreInfluence: 0.9
     bottomLayer:
-      amplitude: 10
+      amplitude: 30
       frequency: 0.05
       layer1AmplitudeMult: 0.5
-      layer1FrequencyMult: 0.5
+      layer1FrequencyMult: 0.8
       layer2AmplitudeMult: 0.25
-      layer2FrequencyMult: 0.25
-    bottomCentreInfluence: 1
+      layer2FrequencyMult: 0.4
+    bottomCentreInfluence: 0.9
     surfaceLayers:
     - materialLayer:
         materials:
@@ -58,4 +58,4 @@ MonoBehaviour:
         weight: 0
   exporter:
     path: C:\Users\billy\AppData\Roaming\.minecraft\config\worldedit\schematics
-    copyCommand: 
+    copyCommand: //schem load LargeGrassIsland1
