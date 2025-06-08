@@ -234,7 +234,7 @@ namespace Billiam.FloatingIslands
             QueueRegeneration();
         }
 
-        void OnDrawGizmosSelected()
+        void OnDrawGizmos()
         {
             if (island == null)
             {
